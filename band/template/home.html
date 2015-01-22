@@ -97,19 +97,28 @@
                                                     </head>
     
     <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
         
         <div class="container">
             
             <div class="masthead">
-                <h3 class="muted">band 9</h3>
+                
+		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                 <div class="navbar">
                     <div class="navbar-inner">
                         <div class="container">
                             <ul class="nav">
                                 <li class="active"><a href="#">Home</a></li>
-                                <li><a href="tourdates.html">tour dates</a></li>
-                                <li><a href="bio.html">Bios</a></li>
-                                <li><a href="contacts.html">contacts</a></li>
+                                <li><a href="tourdates.html">Tour</a></li>
+                                <li><a href="bio.html">Members</a></li>
+                                <li><a href="contacts.html">Contact Us</a></li>
                                 
                                 
                             </ul>
@@ -120,36 +129,40 @@
             
             <!-- Jumbotron -->
             <div class="jumbotron">
-                <h1>Welcome!</h1>
-                <p class="lead">follow us on social media to keep track of our latest announcments.</p>
+                <h1>Salty Turtles</h1>
+		
+                <p class="lead">Follow our Twitter and Facebook</p>
                 <a class="btn btn-large btn-success" href="bio.html">Get to know us more</a>
             </div>
             
             <hr>
+	    <center><h4>Latest Album's</h4></center>
+	    <hr>
             
             <!-- Example row of columns -->
-            <div class="row-fluid">
+            <center><div class="row-fluid">
                 <div class="span4">
-                    <h2>Heading</h2>
+                    <h2>IN STORES NOW</h2>
+                    <img src ="http://i.imgur.com/JHQomgK.png" alt="Coming Home" style="width:300px;height:280px">
+                    <p><a class="btn" href="#">View details &raquo;</a></p>
+                </div>
+                <div class="span4">
+                    <h2>Album 2</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                     <p><a class="btn" href="#">View details &raquo;</a></p>
                 </div>
                 <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="span4">
-                    <h2>Heading</h2>
+                    <h2>Album 3</h2>
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
                     <p><a class="btn" href="#">View details &raquo;</a></p>
                 </div>
-            </div>
+  
+            </center></div>
             
             <hr>
             
             <div class="footer">
-                <p>&copy; Company 2013</p>
+                <p>&copy; Salty Turtles 2015</p>
             </div>
             
         </div> <!-- /container -->
