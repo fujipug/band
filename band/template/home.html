@@ -97,15 +97,14 @@
                                                     </head>
     
     <body>
-	<!-- Facebook like/share button -->
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-  		var js, fjs = d.getElementsByTagName(s)[0];
-  	if (d.getElementById(id)) return;
-  	js = d.createElement(s); js.id = id;
-  	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  	fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
         
         <div class="container">
             
@@ -132,17 +131,17 @@
             <div class="jumbotron">
                 <h1>Salty Turtles</h1>
 		
-                
-
+                <p class="lead">Follow our Twitter and Facebook</p>
+                <a class="btn btn-large btn-success" href="bio.html">Get to know us more</a>
             </div>
-		<hr>
-                <center><a class="btn btn-large btn-success" href="bio.html">Get to know us more</a></center>
-            	<hr>
-   
+            
+            <hr>
+	    <center><h4>Latest Album's</h4></center>
+	    <hr>
             
             <!-- Example row of columns -->
-            <center><div class="row-fluid">
-                <div class="span4">
+            <div class="row-fluid">
+                <div class="span4 offset2">
                     <h2>IN STORES NOW</h2>
                     <img src ="../static/bandalbum.png" alt="Coming Home" style="width:300px;height:280px">
                     
@@ -150,26 +149,26 @@
                 <div class="span4">
                     <h2>IN STORES NOW</h2>
                     <img src = "../static/turtle.png" alt="Shell Shock" style="width:300px;height:280px">
-                </div>   
-
-                <div class="span4">
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span4 offset2">
                     <h2>IN STORES NOW</h2>
                     <img src = "../static/Album.jpg" alt="CS is for Salty" style="width:300px;height:280px">
-                    
                 </div>
-  
-            </center>
-	 <hr>
+                <div class="span4">
+                    <h2>COMING SOON</h2>
+                    <img src = "../static/HonuAlbumCover.png" alt="Shell Shock" style="width:300px;height:280px">
+                </div>
+            </div>
             
-        <div class="footer">
-           <p>&copy; Salty Turtles 2015</p>
-        </div>        
+            <hr>
             
-
+            <div class="footer">
+                <center><p>&copy; Salty Turtles 2015</p></center>
+            </div>
             
         </div> <!-- /container -->
-
-  
         
         <!-- Le javascript
          ================================================== -->
